@@ -1,5 +1,5 @@
 # Todo-App-purejs
-### Test link : https://github.com/chdepz/Todo-App-purejs
+### Test link : https://chdepz.github.io/Todo-App-purejs/
 # Simple Todo List Web App with Local Storage
 
 This repository contains a basic todo list web application implemented in JavaScript, HTML, and CSS. The application allows users to add, edit, and delete tasks, which are stored in the browser's local storage for persistence across sessions.
