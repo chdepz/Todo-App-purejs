@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +6,14 @@
 }
 
 body {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: 'Dela Gothic One', cursive;
     background: #9debff;
 }
 
 main {
     /* height: 100vh; */
     width: 100%;
+    
     /* border: 2px solid black; */
 }
 
@@ -39,16 +40,19 @@ main {
 }
 
 .container h3 {
-    font-size: 22px;
+width: 83%;
+    font-size: 25px;
+    font-weight: 300;
     padding: 20px;
-    text-align: center;
+    text-align: start;
+    font-family: 'Dela Gothic One', cursive;
 
 }
 .container h4{
     width:80%;
     padding: 10px;
     text-align: start;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .todo-input {
@@ -136,6 +140,40 @@ main {
     border-radius: 10px;
     background-color: rgb(255, 1, 1);
 }
+.social-container{
+  
+    
+    width: 80%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+    border-radius: 10px;
+    gap: 1rem;
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.social-container h3{
+    font-family: "Krylon regular" sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.socials{
+    width: 80%;
+    display: flex;
+    
+    justify-content: center;
+    gap: 3rem;
+    padding: 10px;
+}
+.socials .icons{
+    font-size: 25px;
+    color: black;
+}
 
 @media (max-width: 800px) {
     .container {
@@ -204,6 +242,27 @@ main {
 
     .actions .delete {
         padding: 12px;
+        color: black;
+    }
+    .social-container{
+        width: 95%;
+        margin: 50px auto;
+    }
+    .social-container h3{
+       
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .socials{
+        width: 80%;
+        display: flex;
+        
+        justify-content: center;
+        gap: 3rem;
+        padding: 10px;
+    }
+    .socials .icons{
+        font-size: 28px;
         color: black;
     }
 }
